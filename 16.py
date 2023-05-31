@@ -4,7 +4,7 @@ import random
 temp = int(input("Введите количество элементов в массиве: "))
 mas = []
 for i in range(temp):
-    mas.append(random.randrange(-10, 20))
+    mas.append(random.randrange( 1, 30))
 print("Массив:", mas)
 x = int(input("Введите число: "))
 count = 0
